@@ -132,7 +132,6 @@ if(!message.channel.guild) return message.channel.send('**هذا الأمر فق
     message.guild.members.forEach(m => {
 m.sendMessage(args)
 })
-}
 });
     
 
