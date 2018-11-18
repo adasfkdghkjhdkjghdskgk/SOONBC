@@ -130,7 +130,6 @@ if(!message.channel.guild) return message.channel.send('**هذا الأمر فق
  reaction1.on("collect", r => {
     message.channel.send(`**☑ | Done ... The Broadcast Message Has Been Sent For __${message.guild.members.size}__ Members**`).then(m => m.delete(5000));
     message.guild.members.forEach(m => {
-m.sendMessage(args)
 })
 });
     
